@@ -1,0 +1,4 @@
+Print-Head Durability: Confidence Interval Analysis (Small Sample Inference)This project uses statistical inference to estimate the mean durability of print-heads from a small, destructive 
+sample ($n=15$). It contrasts two key methods for constructing a 99% confidence interval for the population mean:T-Distribution: The required, conservative approach for unknown population 
+standard deviation ($\sigma$) and small sample size, yielding an interval of [1.10, 1.41] million characters.Z-Distribution: The theoretical approach for known $\sigma$ (set at 0.20), 
+resulting in a narrower interval of [1.12, 1.39] million characters.The analysis demonstrates the critical role of the t-distribution in quality control when sampling is costly and limited.
